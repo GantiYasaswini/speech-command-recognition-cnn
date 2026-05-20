@@ -24,11 +24,21 @@ The model is trained on Google's Mini Speech Commands dataset and can recognize 
 
 ## Sample Outputs
 
-### Audio Sample Visualization
-![Audio Samples](assets/audio_samples.png)
+### Audio Waveform Samples
+![Audio Samples](assets./Audio_Samples.png)
 
-### Waveform and Spectrogram Representation
-![Spectrogram](assets/spectrogram_visualization.png)
+### Spectrogram Representation
+![Spectrogram](assets./spectrogram_visualization.png)
+
+### Spectrogram Samples
+![Spectrogram Samples](assets./spectrogram_samples.png)
+
+### Training Accuracy
+![Training Accuracy](assets./training_accuracy.png)
+
+### Prediction Output
+![Prediction Output](assets./prediction_output.png)
+
 
 ---
 ## Features
@@ -134,7 +144,6 @@ speech-command-recognition-cnn/
 ├── README.md
 ├── requirements.txt
 ├── speech_command_recognition.ipynb
-├── speech_command_cnn.h5
 │
 ├── assets/
 │   ├── waveform.png
@@ -143,7 +152,7 @@ speech-command-recognition-cnn/
 │   └── prediction_output.png
 │
 └── sample_audio/
-    └── sample.wav
+    └── audio_sample.wav
 ```
 
 ---
